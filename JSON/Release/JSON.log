@@ -1,0 +1,11 @@
+﻿Build started 8/20/2017 8:38:01 AM.
+     1>Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch\JSON\JSON.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(14): error C2079: 'PAIR::p' uses undefined class 'PAIR'
+     1>Done Building Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch\JSON\JSON.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.41

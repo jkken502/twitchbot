@@ -1,0 +1,13 @@
+﻿Build started 12/15/2017 4:12:17 PM.
+     1>Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch - Copy\viewers\viewers.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt viewers.cpp
+         viewers.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch - Copy\bot\Release\viewers.lib" /NOLOGO /LTCG Release\viewers.obj
+         viewers.vcxproj -> C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch - Copy\bot\Release\viewers.lib
+     1>Done Building Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitch - Copy\viewers\viewers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.46

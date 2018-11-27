@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bot", "bot.vcxproj", "{99384E74-AD6E-4558-A1FA-503BA7C5C2DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B34701F-15EE-458C-B544-B63EF414A069} = {8B34701F-15EE-458C-B544-B63EF414A069}
+		{6C46D933-8413-488B-99C3-2265974175EF} = {6C46D933-8413-488B-99C3-2265974175EF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mysql", "..\Mysql\Mysql.vcxproj", "{6C46D933-8413-488B-99C3-2265974175EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "input", "..\input\input.vcxproj", "{8B34701F-15EE-458C-B544-B63EF414A069}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewers", "..\viewers\viewers.vcxproj", "{04B2BAF1-FE0E-4B8E-A120-DCB4A4070BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99384E74-AD6E-4558-A1FA-503BA7C5C2DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99384E74-AD6E-4558-A1FA-503BA7C5C2DD}.Debug|Win32.Build.0 = Debug|Win32
+		{99384E74-AD6E-4558-A1FA-503BA7C5C2DD}.Release|Win32.ActiveCfg = Release|Win32
+		{99384E74-AD6E-4558-A1FA-503BA7C5C2DD}.Release|Win32.Build.0 = Release|Win32
+		{6C46D933-8413-488B-99C3-2265974175EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C46D933-8413-488B-99C3-2265974175EF}.Debug|Win32.Build.0 = Debug|Win32
+		{6C46D933-8413-488B-99C3-2265974175EF}.Release|Win32.ActiveCfg = Release|Win32
+		{6C46D933-8413-488B-99C3-2265974175EF}.Release|Win32.Build.0 = Release|Win32
+		{8B34701F-15EE-458C-B544-B63EF414A069}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B34701F-15EE-458C-B544-B63EF414A069}.Debug|Win32.Build.0 = Debug|Win32
+		{8B34701F-15EE-458C-B544-B63EF414A069}.Release|Win32.ActiveCfg = Release|Win32
+		{8B34701F-15EE-458C-B544-B63EF414A069}.Release|Win32.Build.0 = Release|Win32
+		{04B2BAF1-FE0E-4B8E-A120-DCB4A4070BBB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04B2BAF1-FE0E-4B8E-A120-DCB4A4070BBB}.Debug|Win32.Build.0 = Debug|Win32
+		{04B2BAF1-FE0E-4B8E-A120-DCB4A4070BBB}.Release|Win32.ActiveCfg = Release|Win32
+		{04B2BAF1-FE0E-4B8E-A120-DCB4A4070BBB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

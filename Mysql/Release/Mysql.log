@@ -1,0 +1,19 @@
+﻿Build started 11/26/2018 9:19:51 PM.
+     1>Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\Mysql\Mysql.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Mysql.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"c:/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.9/include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D CPPCONN_PUBLIC_FUNC= /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mysql.cpp
+         mysql.cpp
+     1>mysql.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>mysql.cpp(160): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>mysql.cpp(262): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>mysql.cpp(717): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>mysql.cpp(814): warning C4390: ';' : empty controlled statement found; is this the intent?
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\bot\Release\Twitch_Mysql.lib" /NOLOGO /LTCG Release\mysql.obj
+         Mysql.vcxproj -> C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\bot\Release\Twitch_Mysql.lib
+     1>Done Building Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\Mysql\Mysql.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.95

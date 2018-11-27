@@ -1,0 +1,16 @@
+﻿Build started 11/26/2018 8:39:48 PM.
+     1>Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\input\input.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt input.cpp
+         input.cpp
+     1>input.cpp(18): warning C4018: '<' : signed/unsigned mismatch
+     1>input.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>input.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\bot\Release\input.lib" /NOLOGO /LTCG Release\input.obj
+         input.vcxproj -> C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\bot\Release\input.lib
+     1>Done Building Project "C:\Users\jkken502\Documents\Visual Studio 2013\Projects\twitchbot\input\input.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.47
